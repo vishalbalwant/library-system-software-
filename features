@@ -1,0 +1,13 @@
+🔹 4. Features (Functionalities)
+
+Add Book → Insert new book records.
+
+View Books → Display all available books.
+
+Search Book → Find by Title/Author.
+
+Issue Book → Assign a book to a student.
+
+Return Book → Mark issued book as returned.
+
+Exit → Quit the application.
