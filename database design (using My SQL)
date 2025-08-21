@@ -1,0 +1,33 @@
+Database Design (using MySQL)
+Tables
+
+1. Book Table
+
+CREATE TABLE Book (
+    BookID INT PRIMARY KEY,
+    Title VARCHAR(100),
+    Author VARCHAR(100),
+    Status VARCHAR(20) CHECK (Status IN ('Available','Issued'))
+);
+
+
+2. Student Table
+
+CREATE TABLE Student (
+    StudentID INT PRIMARY KEY,
+    Name VARCHAR(100),
+    Class VARCHAR(50)
+);
+
+
+3. Transaction Table
+
+CREATE TABLE Transaction (
+    TransID INT PRIMARY KEY AUTO_INCREMENT,
+    StudentID INT,
+    BookID INT,
+    IssueDate DATE,
+    ReturnDate DATE,
+    FOREIGN KEY (StudentID) REFERENCES Student(StudentID),
+    FOREIGN KEY (BookID) REFERENCES Book(BookID)
+);
