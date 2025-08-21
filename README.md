@@ -50,7 +50,7 @@ Return Book → Mark issued book as returned.
 
 Exit → Quit the application.
 
-7. Working of the System
+5. Working of the System
 
 Step by Step Execution
 
@@ -72,7 +72,7 @@ If Exit → Program ends
 
 After each operation → returns to Main Menu
 
-🔹 8. Advantages of this System
+🔹 6. Advantages of this System
 
 Simple & easy to use
 
@@ -82,12 +82,14 @@ Time-saving for book management
 
 Expandable to GUI / Database
 
-🔹 9. Future Scope
+🔹 7. Future Scope
 
 Add user login (Admin & Student)
 
 Add due date & fine system
 
 Integrate with MySQL/PostgreSQL for data persistence
+
 Create GUI version using JavaFX or Swing
+
 Cloud-based library management
