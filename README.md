@@ -93,3 +93,35 @@ Integrate with MySQL/PostgreSQL for data persistence
 Create GUI version using JavaFX or Swing
 
 Cloud-based library management
+
+####. Configuration & Setup
+
+Install Java JDK
+
+Download from Oracle JDK
+
+Install and set JAVA_HOME in environment variables
+
+Create Project File
+
+Save the above code as LibrarySystem.java
+
+Compile Program
+
+javac LibrarySystem.java
+
+
+Run Program
+
+java LibrarySystem
+
+Done
+
+thank you!
+
+by..
+
+vishal kumar balwant
+
+
+
